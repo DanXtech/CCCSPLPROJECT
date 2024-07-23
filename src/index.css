@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #74aafc; */
+}
+
+
+body{
+    /* @apply bg-slate-100 */
+}
+
+.userTable{
+    @apply bg-white 
+}
+
+.userTable th{
+    @apply border text-base font-medium 
+}
+
+.userTable td{
+    @apply border text-base  text-center
+}
+
+
+/* scroll bar hidden */
+.scrollbar-none::-webkit-scrollbar{
+    display: none;
+}
+
+
+@layer utilities {
+
+    .hero {
+        animation: bounce 4s linear infinite;
+      }
+      @keyframes bounce {
+        0% {
+          transform: translateY(-20px);
+        }
+        50% {
+          transform: translateY(20px);
+        }
+        100% {
+          transform: translateY(-20px);
+        }
+      }
+}

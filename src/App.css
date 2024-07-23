@@ -1,0 +1,62 @@
+@import url('thhps://fonts.googleapis.com/css?family=Ex:400,700');
+
+
+
+/* user table */
+
+.userTable{
+    @apply bg-white 
+}
+
+.userTable th{
+    @apply border text-base font-medium 
+}
+
+.userTable td{
+    @apply border text-base  text-center
+}
+
+
+body{
+
+    margin: 0;
+    background: #ffffff;
+    /* background-image:
+    repeating-linear-gradient(
+        to right, #2d2a44 0 1px, transparent 2px 200px
+    ),
+    repeating-linear-gradient(
+        to bottom, #2d2a44 0 1px, transparent 2px 200px
+    ),
+    radial-gradient(
+        at 50% 50%, #2d2a44, #1d1b34
+    ); */
+
+}
+
+/* scroll bar hidden */
+.scrollbar-none::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+
+.design{
+    /* font-family: 'Exo'  sans-serif; */
+    font-family: 'Cookie', cursive;
+}
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background-color: #22202cf6;
+}
+
+
+.lineborder{
+    border-bottom: 2px solid #ffadadc9;
+}
