@@ -21,7 +21,7 @@ const introsectioninf = () => {
                         </div>
                     </div>
                     <img
-                        className="  md:max-h-full w-full object-cover "
+                        className=" lg:max-h-full lg:h-[578px] w-full object-cover"
                         src={homeIntro1}
                         alt="/"
                     />
@@ -37,7 +37,7 @@ const introsectioninf = () => {
                         </div>
                     </div>
                     <img
-                        className="  lg:h-[578px] w-full object-cover "
+                        className=" lg:h-[578px] w-full h-[300px] object-cover  "
                         src={homeIntro2}
                         alt="/"
                     />
